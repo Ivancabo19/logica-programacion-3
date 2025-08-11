@@ -4,10 +4,11 @@ Este proyecto calcula el **factorial** de un número entero positivo usando **Ja
 
 ## 📋 Requisitos del ejercicio
 
-- Solicitar al usuario un número (por `input`)
+- Solicitar al usuario un número (por `input` o `prompt`).
 - Calcular el factorial del número recibido.
 - Mostrar el resultado en consola y en el DOM.
 - Validar que el dato de entrada sea de tipo **number** y entero ≥ 0.
 - Mostrar un mensaje de error y volver a solicitar el dato en caso de entrada inválida.
 
+## 📂 Estructura del proyecto
 

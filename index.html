@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Factorial con DOM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; }
+    form { display: flex; gap: .5rem; align-items: center; }
+    input { width: 8rem; padding: .4rem .6rem; }
+    button { padding: .45rem .8rem; cursor: pointer; }
+    .salida { margin-top: 1rem; font-size: 1.1rem; }
+    .error  { color: #b00020; }
+    .ok     { color: #0a7b28; }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de factorial</h1>
+
+  <form id="formFactorial" autocomplete="off" novalidate>
+    <label for="n">Número (entero ≥ 0):</label>
+    <input id="n" name="n" type="number" min="0" step="1" required />
+    <button type="submit">Calcular</button>
+  </form>
+
+  <p id="mensaje" class="salida"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
