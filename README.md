@@ -10,5 +10,4 @@ Este proyecto calcula el **factorial** de un número entero positivo usando **Ja
 - Validar que el dato de entrada sea de tipo **number** y entero ≥ 0.
 - Mostrar un mensaje de error y volver a solicitar el dato en caso de entrada inválida.
 
-## 📂 Estructura del proyecto
 
